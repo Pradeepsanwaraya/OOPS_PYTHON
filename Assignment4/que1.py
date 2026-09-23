@@ -80,41 +80,28 @@ class Manager(Employee):
 
 employee_id=int(input("enter employee id: "))
 employee_name=input("enter employee name: ")
-salary=int(input("enter salary: "))
-
+salary=int(input("enter salary: "))    
 print("enter employee type:")
 print("1. developer")
 print("2. manager")
-
 employee_type=int(input("enter employee type: "))
-
 if employee_type==1:
     programming_language=input("enter programming language: ")
-
     obj=Developer(employee_id,employee_name,salary,programming_language)
-
     print()
     print("## employee details")
     print()
-
     obj.display_details()
-
     print()
     obj.write_code()
-
 elif employee_type==2:
     team_size=int(input("enter team size: "))
-
     obj=Manager(employee_id,employee_name,salary,team_size)
-
     print()
     print("## employee details")
     print()
-
     obj.display_details()
-
     print()
     obj.manage_team()
-
 else:
     print("invalid employee type")
