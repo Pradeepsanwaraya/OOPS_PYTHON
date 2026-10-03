@@ -1,298 +1,312 @@
-# #In python constructor is a special type of function or module that gets 
-# # automatically called when a object of a class is created
-# class Stu:
-#     def __init__(self):
-#         print("Constructor is callled")
-# s1=Stu()
+# # #In python constructor is a special type of function or module that gets 
+# # # automatically called when a object of a class is created
+# # class Stu:
+# #     def __init__(self):
+# #         print("Constructor is callled")
+# # s1=Stu()
 
 
 
-# #Python automatically call in background
-# #stu.__init(s1)
-# #why do we need constructor
-# #usually we use it to give initial values to an object.
-# class Student:
-#     def __init__(self,name,age):
-#         self.name=name
-#         self.age=age
-# s1=Student("Pradeep",23)
-# print(s1.name)
-# print(s1.age)
-# #Here automatically __init__(self,"Pradeep",23)
-
-
-
-
-# class Rectangle:
-#     def display(self):
-#         print("Rectangle Classs Display  Method ")
-
-#     #Defualt constructor and parametterized constructor 
-
-
-#     def __init__(self):
-#         print("Defualt ")
-#     def __init__(self,l):
-#             self.Lenght=l
-#             print("Lenght is ",self.Lenght)
-
-# r1=Rectangle(122)
-# r1.display()
-
-
-#================================================================
-#Encapsulation
-#Wrapping of data and stop the direct access 
-
-'''
-self.Amount=1000---------Public 
-self._Amount=1000--------Protected 
-self.__Amount=1000-------Private 
-
-'''
-class Teacher:
-    def __init__(self,name,salary):
-        self._name=name
-        self.__salary=salary
+# # #Python automatically call in background
+# # #stu.__init(s1)
+# # #why do we need constructor
+# # #usually we use it to give initial values to an object.
+# # class Student:
+# #     def __init__(self,name,age):
+# #         self.name=name
+# #         self.age=age
+# # s1=Student("Pradeep",23)
+# # print(s1.name)
+# # print(s1.age)
+# # #Here automatically __init__(self,"Pradeep",23)
 
 
 
 
-class student(Teacher):
-    def studentshow(self):
-        print("Teacher name (Protected ) : ",self._name)
+# # class Rectangle:
+# #     def display(self):
+# #         print("Rectangle Classs Display  Method ")
 
-t1=Teacher("Soniya ",12000)
+# #     #Defualt constructor and parametterized constructor 
 
-s1=student()
-s1.studentshow()
+
+# #     def __init__(self):
+# #         print("Defualt ")
+# #     def __init__(self,l):
+# #             self.Lenght=l
+# #             print("Lenght is ",self.Lenght)
+
+# # r1=Rectangle(122)
+# # r1.display()
+
+
+# #================================================================
+# #Encapsulation
+# #Wrapping of data and stop the direct access 
+
+# '''
+# self.Amount=1000---------Public 
+# self._Amount=1000--------Protected 
+# self.__Amount=1000-------Private 
+
+# '''
+# class Teacher:
+#     def __init__(self,name,salary):
+#         self._name=name
+#         self.__salary=salary
+
+
+
+
+# class student(Teacher):
+#     def studentshow(self):
+#         print("Teacher name (Protected ) : ",self._name)
+
+# t1=Teacher("Soniya ",12000)
+
+# s1=student()
+# s1.studentshow()
        
 
 
-# #In python constructor is a special type of function or module that gets 
-# # automatically called when a object of a class is created
-# class Stu:
-#     def __init__(self):
-#         print("Constructor is callled")
-# s1=Stu()
+# # #In python constructor is a special type of function or module that gets 
+# # # automatically called when a object of a class is created
+# # class Stu:
+# #     def __init__(self):
+# #         print("Constructor is callled")
+# # s1=Stu()
 
 
 
-# #Python automatically call in background
-# #stu.__init(s1)
-# #why do we need constructor
-# #usually we use it to give initial values to an object.
-# class Student:
-#     def __init__(self,name,age):
-#         self.name=name
-#         self.age=age
-# s1=Student("Pradeep",23)
-# print(s1.name)
-# print(s1.age)
-# #Here automatically __init__(self,"Pradeep",23)
-
-
-
-
-# class Rectangle:
-#     def display(self):
-#         print("Rectangle Classs Display  Method ")
-
-#     #Defualt constructor and parametterized constructor 
-
-
-#     def __init__(self):
-#         print("Defualt ")
-#     def __init__(self,l):
-#             self.Lenght=l
-#             print("Lenght is ",self.Lenght)
-
-# r1=Rectangle(122)
-# r1.display()
-
-
-#================================================================
-#Encapsulation
-#Wrapping of data and stop the direct access 
-
-'''
-self.Amount=1000---------Public 
-self._Amount=1000--------Protected 
-self.__Amount=1000-------Private 
-
-'''
-class Teacher:
-    def __init__(self,name,salary):
-        self._name=name
-        self.__salary=salary
+# # #Python automatically call in background
+# # #stu.__init(s1)
+# # #why do we need constructor
+# # #usually we use it to give initial values to an object.
+# # class Student:
+# #     def __init__(self,name,age):
+# #         self.name=name
+# #         self.age=age
+# # s1=Student("Pradeep",23)
+# # print(s1.name)
+# # print(s1.age)
+# # #Here automatically __init__(self,"Pradeep",23)
 
 
 
 
-class student(Teacher):
-    def studentshow(self):
-        print("Teacher name (Protected ) : ",self._name)
+# # class Rectangle:
+# #     def display(self):
+# #         print("Rectangle Classs Display  Method ")
 
-t1=Teacher("Soniya ",12000)
+# #     #Defualt constructor and parametterized constructor 
 
-s1=student()
-s1.studentshow()
+
+# #     def __init__(self):
+# #         print("Defualt ")
+# #     def __init__(self,l):
+# #             self.Lenght=l
+# #             print("Lenght is ",self.Lenght)
+
+# # r1=Rectangle(122)
+# # r1.display()
+
+
+# #================================================================
+# #Encapsulation
+# #Wrapping of data and stop the direct access 
+
+# '''
+# self.Amount=1000---------Public 
+# self._Amount=1000--------Protected 
+# self.__Amount=1000-------Private 
+
+# '''
+# class Teacher:
+#     def __init__(self,name,salary):
+#         self._name=name
+#         self.__salary=salary
+
+
+
+
+# class student(Teacher):
+#     def studentshow(self):
+#         print("Teacher name (Protected ) : ",self._name)
+
+# t1=Teacher("Soniya ",12000)
+
+# s1=student()
+# s1.studentshow()
        
 
 
-# #In python constructor is a special type of function or module that gets 
-# # automatically called when a object of a class is created
-# class Stu:
-#     def __init__(self):
-#         print("Constructor is callled")
-# s1=Stu()
+# # #In python constructor is a special type of function or module that gets 
+# # # automatically called when a object of a class is created
+# # class Stu:
+# #     def __init__(self):
+# #         print("Constructor is callled")
+# # s1=Stu()
 
 
 
-# #Python automatically call in background
-# #stu.__init(s1)
-# #why do we need constructor
-# #usually we use it to give initial values to an object.
-# class Student:
-#     def __init__(self,name,age):
-#         self.name=name
-#         self.age=age
-# s1=Student("Pradeep",23)
-# print(s1.name)
-# print(s1.age)
-# #Here automatically __init__(self,"Pradeep",23)
-
-
-
-
-# class Rectangle:
-#     def display(self):
-#         print("Rectangle Classs Display  Method ")
-
-#     #Defualt constructor and parametterized constructor 
-
-
-#     def __init__(self):
-#         print("Defualt ")
-#     def __init__(self,l):
-#             self.Lenght=l
-#             print("Lenght is ",self.Lenght)
-
-# r1=Rectangle(122)
-# r1.display()
-
-
-#================================================================
-#Encapsulation
-#Wrapping of data and stop the direct access 
-
-'''
-self.Amount=1000---------Public 
-self._Amount=1000--------Protected 
-self.__Amount=1000-------Private 
-
-'''
-class Teacher:
-    def __init__(self,name,salary):
-        self._name=name
-        self.__salary=salary
+# # #Python automatically call in background
+# # #stu.__init(s1)
+# # #why do we need constructor
+# # #usually we use it to give initial values to an object.
+# # class Student:
+# #     def __init__(self,name,age):
+# #         self.name=name
+# #         self.age=age
+# # s1=Student("Pradeep",23)
+# # print(s1.name)
+# # print(s1.age)
+# # #Here automatically __init__(self,"Pradeep",23)
 
 
 
 
-class student(Teacher):
-    def studentshow(self):
-        print("Teacher name (Protected ) : ",self._name)
+# # class Rectangle:
+# #     def display(self):
+# #         print("Rectangle Classs Display  Method ")
 
-t1=Teacher("Soniya ",12000)
+# #     #Defualt constructor and parametterized constructor 
 
-s1=student()
-s1.studentshow()
+
+# #     def __init__(self):
+# #         print("Defualt ")
+# #     def __init__(self,l):
+# #             self.Lenght=l
+# #             print("Lenght is ",self.Lenght)
+
+# # r1=Rectangle(122)
+# # r1.display()
+
+
+# #================================================================
+# #Encapsulation
+# #Wrapping of data and stop the direct access 
+
+# '''
+# self.Amount=1000---------Public 
+# self._Amount=1000--------Protected 
+# self.__Amount=1000-------Private 
+
+# '''
+# class Teacher:
+#     def __init__(self,name,salary):
+#         self._name=name
+#         self.__salary=salary
+
+
+
+
+# class student(Teacher):
+#     def studentshow(self):
+#         print("Teacher name (Protected ) : ",self._name)
+
+# t1=Teacher("Soniya ",12000)
+
+# s1=student()
+# s1.studentshow()
        
 
 
-# #In python constructor is a special type of function or module that gets 
-# # automatically called when a object of a class is created
-# class Stu:
-#     def __init__(self):
-#         print("Constructor is callled")
-# s1=Stu()
+# # #In python constructor is a special type of function or module that gets 
+# # # automatically called when a object of a class is created
+# # class Stu:
+# #     def __init__(self):
+# #         print("Constructor is callled")
+# # s1=Stu()
 
 
 
-# #Python automatically call in background
-# #stu.__init(s1)
-# #why do we need constructor
-# #usually we use it to give initial values to an object.
-# class Student:
-#     def __init__(self,name,age):
-#         self.name=name
-#         self.age=age
-# s1=Student("Pradeep",23)
-# print(s1.name)
-# print(s1.age)
-# #Here automatically __init__(self,"Pradeep",23)
-
-
-
-
-# class Rectangle:
-#     def display(self):
-#         print("Rectangle Classs Display  Method ")
-
-#     #Defualt constructor and parametterized constructor 
-
-
-#     def __init__(self):
-#         print("Defualt ")
-#     def __init__(self,l):
-#             self.Lenght=l
-#             print("Lenght is ",self.Lenght)
-
-# r1=Rectangle(122)
-# r1.display()
-
-
-#================================================================
-#Encapsulation
-#Wrapping of data and stop the direct access 
-
-'''
-self.Amount=1000---------Public 
-self._Amount=1000--------Protected 
-self.__Amount=1000-------Private 
-
-'''
-class Teacher:
-    def __init__(self,name,salary):
-        self._name=name
-        self.__salary=salary
+# # #Python automatically call in background
+# # #stu.__init(s1)
+# # #why do we need constructor
+# # #usually we use it to give initial values to an object.
+# # class Student:
+# #     def __init__(self,name,age):
+# #         self.name=name
+# #         self.age=age
+# # s1=Student("Pradeep",23)
+# # print(s1.name)
+# # print(s1.age)
+# # #Here automatically __init__(self,"Pradeep",23)
 
 
 
 
-class student(Teacher):
-    def studentshow(self):
-        print("Teacher name (Protected ) : ",self._name)
+# # class Rectangle:
+# #     def display(self):
+# #         print("Rectangle Classs Display  Method ")
 
-t1=Teacher("Soniya ",12000)
+# #     #Defualt constructor and parametterized constructor 
 
-s1=student()
-s1.studentshow()
+
+# #     def __init__(self):
+# #         print("Defualt ")
+# #     def __init__(self,l):
+# #             self.Lenght=l
+# #             print("Lenght is ",self.Lenght)
+
+# # r1=Rectangle(122)
+# # r1.display()
+
+
+# #================================================================
+# #Encapsulation
+# #Wrapping of data and stop the direct access 
+
+# '''
+# self.Amount=1000---------Public 
+# self._Amount=1000--------Protected 
+# self.__Amount=1000-------Private 
+
+# '''
+# class Teacher:
+#     def __init__(self,name,salary):
+#         self._name=name
+#         self.__salary=salary
+
+
+
+
+# class student(Teacher):
+#     def studentshow(self):
+#         print("Teacher name (Protected ) : ",self._name)
+
+# t1=Teacher("Soniya ",12000)
+
+# s1=student()
+# s1.studentshow()
        
 
-/**
- * @return {null|boolean|number|string|Array|Object}
- */
-Array.prototype.last = function() {
-    if (this.length == 0) {
-        return -1;
-    }
+# class Computer:
+#     def Config(self):
+#         print("configuration")
+# c1=Computer()
+# c2=Computer()
 
-    return this[this.length - 1];
-};
+# class Computer:
+#     def __init__(self):
+#         print("constructor is called")
 
-/**
- * const arr = [1, 2, 3];
- * arr.last(); // 3
- */
+# c1=Computer()
+# c2=Computer()    
+
+class Computer:
+    def __init__(self):
+        self.name="pradeep"
+        self.age=23
+    def compare(self,other):
+        if self.name==other.name:
+            return True
+        else:
+            return False
+        
+c1=Computer()
+c2=Computer()
+if c1.compare(c2):
+    print("both are equal")
+else:
+    print("both are different")
