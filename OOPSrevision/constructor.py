@@ -310,3 +310,24 @@ if c1.compare(c2):
     print("both are equal")
 else:
     print("both are different")
+    /**
+ * @param {Array} arr
+ * @param {number} depth
+ * @return {Array}
+ */
+var flat = function (arr, n) {
+    const result = [];
+
+    const flatten = (items, depth) => {
+        for (const item of items) {
+            if (Array.isArray(item) && depth > 0) {
+                flatten(item, depth - 1);
+            } else {
+                result.push(item);
+            }
+        }
+    };
+
+    flatten(arr, n);
+    return result;
+};
